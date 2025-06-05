@@ -20,3 +20,24 @@ Today was my first hands-on session with the **Unity Create with VR** course (VR
 - AirLink is only suitable for streaming, not device flashing or ADB-level deployment.
 
 ---
+
+## 📆 2025-06-05 Development Log
+
+### 🎯 What I learned and practiced today
+- Placed a **fireplace** and **mirror** in the room using the provided prefabs
+- Added the following components to the `XR Rig`:
+  - ✅ `Locomotion System`
+  - ✅ `Continuous Turn Provider`, `Snap Turn Provider` for rotating viewpoint
+  - ✅ `Teleportation Provider` for enabling teleport movement
+- Added `Teleportation Area` to floor plane and other objects
+- Applied a **Reticle** prefab to visualize the teleportation target
+
+### ✅ Key takeaway
+- **Teleportation Area requires a Collider to function**
+  - It won't work without a `Mesh Collider`
+  - The `isTrigger` option must be **disabled**
+
+### ⚠️ Current issue
+- When using the **OpenXR** plugin, the VR scene does **not launch properly** on Meta Quest 3 via **Air Link**
+  - It works fine with the **Oculus Plugin**
+  - The course also **recommends using a cable connection** for this part
