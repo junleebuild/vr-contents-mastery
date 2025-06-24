@@ -28,6 +28,47 @@ June 5, 2025
 
 Let me know if you'd like to add a progress log section or tailor it more toward VR from the start.
 
+# 🎮 Unity Basic Learning Log
+
+## 📆 2025-06-05 Learning Log
+
+### 📚 Lesson: Unity Essentials - Master 3D Scene Navigation
+
+### ✅ Summary of What I Learned
+- How to frame a GameObject in the Scene view using the `F` shortcut.
+- Navigating 3D space using Flythrough mode (right mouse + WASD keys).
+- Zooming in and out in the Scene view using the scroll wheel.
+- Orbiting around framed objects using the mouse and keyboard.
+- Switching between Perspective and Isometric modes to change scene view.
+
+---
+
+### 🎮 Useful Unity Shortcuts
+
+#### Scene View Navigation:
+- **View**: Hold the right mouse button and drag.
+- **Frame**: Press `F` in the Scene view or double-click a GameObject in the Hierarchy window.
+- **Orbit**: Hold `Alt` (macOS: Option) + left mouse button drag.
+- **Zoom**: Scroll wheel or hold `Alt` (Option) + right mouse button drag.
+- **Flythrough mode**: Hold right mouse button + `WASD` keys (`Q`/`E` to move Down/Up).
+
+#### Scene View Tool Shortcuts:
+- **View**: `Q`
+- **Move**: `W`
+- **Rotate**: `E`
+- **Scale**: `R`
+- **Rect**: `T`
+
+#### Miscellaneous Shortcuts:
+- **Undo**: `Ctrl + Z` (macOS: `Cmd + Z`)
+- **Save**: `Ctrl + S` (macOS: `Cmd + S`)
+
+---
+
+### 🚀 Notes
+- Today I focused on mastering camera and object navigation within the Unity Scene view.
+- Understanding these shortcuts will help speed up future VR content development.
+
 
 
 
