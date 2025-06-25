@@ -70,6 +70,27 @@ Let me know if you'd like to add a progress log section or tailor it more toward
 - Understanding these shortcuts will help speed up future VR content development.
 
 
+## 📆 2025-06-06 Learning Log
+
+### 📚 Lesson: Unity Essentials - Pass the Scene View Flying Test & Design a Mural in the Scene View
+
+### ✅ Summary of What I Learned and Practiced
+- Explained the difference between **Global** and **Local** coordinate space in the Scene view.
+- Switched between **Global** and **Local** coordinates when positioning GameObjects.
+- Moved objects using the **Move tool**.
+- Rotated objects along axes using the **Rotate tool**.
+- Switched between scene tools using the **QWERTY keyboard shortcuts**.
+- Moved objects along one or two axes at a time using the **Move tool**.
+
+### 🚀 Extra Practice
+- Completed the **“More Things to Try”** section at the end of the tutorial.
+- Successfully created the **Expert Slide** using all skills learned so far.
+- Saved the scene after completing the exercise.
+
+---
+
+
+
 
 
 
