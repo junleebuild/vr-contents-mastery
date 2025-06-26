@@ -89,6 +89,27 @@ Let me know if you'd like to add a progress log section or tailor it more toward
 
 ---
 
+---
+
+## 📆 2025-06-06 Learning Log (Continued)
+
+### 🛠️ Scene Assembly Practice
+
+- Imported the **Gizroom 3D scene** into the project.
+- Placed the **Bedroom prefab** to create a room layout.
+- Added and arranged the following prefabs:
+  - 🛏️ **Bed**
+  - 🏀 **Basketball Hoop**
+  - 🐴 **Rocking Horse**
+  - 🪟 **Bedroom base structure**
+  - 🧶 **Carpet** and other interior props
+- Practiced with the following tools for object placement:
+  - `W` Move Tool
+  - `E` Rotate Tool
+  - `R` Scale Tool
+- Adjusted position, rotation, and scale to build a furnished room layout.
+
+---
 
 
 
