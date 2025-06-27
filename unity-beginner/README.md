@@ -111,6 +111,30 @@ Let me know if you'd like to add a progress log section or tailor it more toward
 
 ---
 
+---
+
+## 📆 2025-06-07 Learning Log
+
+### 🏀 Bounce Ball Scene Practice
+
+Created a simple physics-based bouncing ball in Unity.
+
+#### 🧱 What was built:
+- Added a **3D Sphere primitive** to the scene.
+- Customized the ball’s look with a new **Material**.
+- Created and applied a **Physic Material** to adjust bounce behavior.
+- Enabled realistic physics using the **Rigidbody** component.
+
+#### 🔍 Skills practiced:
+- Adding 3D primitives and describing their default behavior.
+- Creating and editing **Materials** to change object appearance.
+- Drag-and-drop material assignment from **Project window to Scene view**.
+- Adding components like **Rigidbody** via the **Inspector**.
+- Creating and assigning **Physic Materials** to define bounce and friction.
+- Navigating and understanding the **Inspector window** layout.
+
+---
+
 
 
 
