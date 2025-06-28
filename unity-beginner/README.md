@@ -135,6 +135,23 @@ Created a simple physics-based bouncing ball in Unity.
 
 ---
 
+## 📆 2025-06-XX: Prefab Tower & Physics Interaction
+
+### 🧱 What I did today
+- Created a **tower** using prefab blocks and knocked it over using a **ball** with physics.
+- Reset the `Transform` component to position objects at the origin.
+- Scaled objects using the **Scale tool**.
+- Created a **Prefab** from an existing GameObject.
+- Identified prefab instances in the Hierarchy window.
+- Switched tool handle position between **Center** and **Pivot**.
+- Edited a prefab in **Prefab Mode**.
+- Assigned materials via the **Mesh Renderer** component.
+- Created an **Empty GameObject** to serve as a parent.
+- Organized objects using **Parent-Child** relationships in the Hierarchy window.
+
+### ⚠️ Important Notes
+- After creating a prefab from a GameObject in the scene, **the original object may not automatically stay linked** as an instance.
+- To ensure prefab changes propagate, **always instantiate prefabs from the Project window**.
 
 
 
