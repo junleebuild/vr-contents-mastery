@@ -154,6 +154,24 @@ Created a simple physics-based bouncing ball in Unity.
 - To ensure prefab changes propagate, **always instantiate prefabs from the Project window**.
 
 
+## 📆 2025-06-XX: Completed 3D Essentials & Audio Essentials Tutorials
+
+### 🎮 3D Essentials - Final Sections Completed
+- Positioned the **Main Camera** for ideal scene framing.
+- Adjusted **Camera Field of View (FOV)**.
+- Aligned the **Camera View to Scene View** using keyboard shortcuts.
+- Adjusted the **Directional Light** to simulate time of day.
+- Edited the **Skybox** to customize the scene’s background/environment.
+- Changed the **Play Mode Tint** for better visual feedback when running the scene.
+- ✅ Completed **"More Things to Try" (Medium difficulty)**.
+- 🧠 Passed **Mission 2 Quiz**.
+
+### 🔊 Audio Essentials - Completed
+- Learned same key camera and lighting adjustments to prepare for audio scenes.
+- ✅ Completed **"More Things to Try" (Medium difficulty)**.
+- 🧠 Passed **Quiz 3**.
+
+🎉 Both **3D Essentials** and **Audio Essentials** tutorials fully completed.
 
 
 
