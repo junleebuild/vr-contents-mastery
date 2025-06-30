@@ -173,5 +173,40 @@ Created a simple physics-based bouncing ball in Unity.
 
 🎉 Both **3D Essentials** and **Audio Essentials** tutorials fully completed.
 
+## 📆 2025-06-XX: Completed Programming Essentials in Unity
+
+### 💻 What I Learned Today
+
+- ✅ Created new C# scripts and attached them to GameObjects.
+- ✅ Opened and edited code using Unity's default IDE.
+- ✅ Made a **camera follow the player** using parenting structure.
+- ✅ Temporarily adjusted component properties during **Play mode**.
+- ✅ Understood `using` statements and class declaration.
+- ✅ Learned about the `MonoBehaviour` base class.
+- ✅ Used `Start()` and `Update()` methods for scripting behavior.
+- ✅ Applied transform functions to move GameObjects over time.
+- ✅ Practiced declaring variables using correct data types (`int`, `float`, `GameObject`).
+- ✅ Declared custom variables and understood how public variables show in the Inspector.
+- ✅ Learned and applied naming conventions (PascalCase vs camelCase).
+- ✅ Used colliders as **triggers** and implemented `OnTriggerEnter()` for interaction.
+- ✅ Used `Destroy()` to remove objects dynamically.
+- ✅ Understood autocomplete features in the IDE for faster coding.
+- ✅ Used **Visual Effects (VFX)** for user feedback.
+- ✅ Implemented `Instantiate()` to spawn prefabs in runtime.
+- ✅ Used snapping and alignment tools in the Scene view.
+- ✅ Applied conditional logic using `if` statements.
+- ✅ Tagged GameObjects and accessed them in code using `CompareTag()`.
+
+### 📌 Quiz Summary
+- ✅ Completed the **Programming Essentials quiz**.
+- ❌ One mistake: misunderstood how `Instantiate()` works.
+  
+### 📘 Clarification: How `Instantiate()` Works
+The `Instantiate()` function is used to create a copy of a prefab or GameObject at runtime.
+```csharp
+Instantiate(prefab, position, rotation);
+This will spawn the object at the given position and rotation. You can also store the result in a variable to modify or track the instance later.
+
+---
 
 
