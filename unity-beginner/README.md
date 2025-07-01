@@ -209,4 +209,42 @@ This will spawn the object at the given position and rotation. You can also stor
 
 ---
 
+## 📆 2025-06-XX: Completed 2D Essentials in Unity
+
+### 🧩 What I Learned Today
+
+- 🔄 Switched between **2D view** and **3D view** in the Scene window.
+- 🧭 Compared navigation differences between 2D space and 3D space.
+- 🖼️ **Defined sprite** and used sprites in a 2D environment.
+- 🧪 Adjusted Game view **aspect ratio** to match user devices.
+- 🔲 Used the **Rect Tool** to move, resize, and scale 2D objects.
+- 📐 Learned the difference between **2D Colliders** and **3D Colliders**.
+- 📑 Duplicated GameObjects for fast level design.
+- 🎨 Used `Order in Layer` to control visual stacking in 2D scenes.
+- 🔳 Explained how **9-sliced sprites** work for resizable UI elements.
+- ⚙️ Adjusted `Rigidbody2D` properties:
+  - `Mass`: controls weight
+  - `Linear Drag`: slows down movement
+  - `Angular Drag`: slows down rotation
+
+### 💡 Important Note
+> `Rigidbody2D` uses **2D physics**, so its interactions require **2D physics functions**, not 3D ones like `OnCollisionEnter` but rather `OnCollisionEnter2D`.
+
+### 🎞️ Sprite Sheet & Animation
+
+- 🧵 Defined **sprite sheet** and how it enables 2D animation.
+- ✂️ Sliced a sprite sheet into individual frames using **Sprite Editor**.
+- 🔁 Created a **looping animated sprite** from sliced frames.
+
+---
+
+### 📝 Quiz Review
+
+**❌ Mistake:**
+- **Q:** What happens when you turn on 2D mode in the Scene view?
+- **Incorrect understanding**: Thought it simply disables 3D view.
+- **✅ Correct answer:**
+  > *Turns off perspective and orients the camera to look towards positive Z, with the X-axis pointing right and the Y-axis pointing up.*
+
+This was an important concept to visualize and remember for proper 2D layout understanding.
 
