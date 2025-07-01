@@ -135,7 +135,7 @@ Created a simple physics-based bouncing ball in Unity.
 
 ---
 
-## 📆 2025-06-XX: Prefab Tower & Physics Interaction
+## 📆 2025-06-30: Prefab Tower & Physics Interaction
 
 ### 🧱 What I did today
 - Created a **tower** using prefab blocks and knocked it over using a **ball** with physics.
@@ -154,7 +154,7 @@ Created a simple physics-based bouncing ball in Unity.
 - To ensure prefab changes propagate, **always instantiate prefabs from the Project window**.
 
 
-## 📆 2025-06-XX: Completed 3D Essentials & Audio Essentials Tutorials
+## 📆 2025-07-01: Completed 3D Essentials & Audio Essentials Tutorials
 
 ### 🎮 3D Essentials - Final Sections Completed
 - Positioned the **Main Camera** for ideal scene framing.
@@ -209,7 +209,7 @@ This will spawn the object at the given position and rotation. You can also stor
 
 ---
 
-## 📆 2025-06-XX: Completed 2D Essentials in Unity
+## 📆 2025-07-02: Completed 2D Essentials in Unity
 
 ### 🧩 What I Learned Today
 
@@ -247,4 +247,28 @@ This will spawn the object at the given position and rotation. You can also stor
   > *Turns off perspective and orients the camera to look towards positive Z, with the X-axis pointing right and the Y-axis pointing up.*
 
 This was an important concept to visualize and remember for proper 2D layout understanding.
+
+## Completed Publishing Essentials & Finished Unity Essentials
+
+### 📦 Publishing Essentials Summary
+
+- 🧭 Adjusted icon display in the Scene view using:
+  - **Gizmos dropdown**
+  - **3D Icons slider**
+- 🖼️ Understood the purpose of the **Canvas GameObject** for UI design.
+- ✏️ Customized **TextMeshPro** components: font, size, style.
+- 🪟 Rearranged windows in the Unity Editor for workflow optimization.
+- 📦 Opened the **Build Settings** window:
+  - Selected which Scenes to include in the build
+  - Opened and configured **Player Settings** for target platforms
+- 📦 Learned about the **Package Manager**:
+  - Installed Unity packages to extend functionality
+  - Used the **Recorder Package** to record gameplay/data during Play Mode
+
+---
+
+### 🏁 Unity Essentials Complete!
+
+> ✅ Finished all core modules of the Unity Essentials learning path.
+> 💡 Some "More Things to Try" sections may still be explored later for deeper understanding.
 
