@@ -55,3 +55,27 @@
 - Creating a **Project Timeline** with milestones
 - Structuring a **Backlog** for development tasks
 - Understanding and planning **Minimum Viable Products (MVPs)**
+
+## 📆 2025-07-06: Junior Programmer - Chapter 2 Progress
+
+### 🎮 New Functionality
+
+- Player can **move left and right** based on user input (`Left` / `Right` arrow keys)
+- Player **cannot exit** the play area boundaries
+- Player can **press Spacebar to launch projectiles**
+- **Projectiles** and **animals** are **destroyed** when they leave the screen
+
+### 🧠 New Concepts & Skills Learned
+
+- Adjusting **object scale**
+- Using **if-statements** and **else-if statements**
+- Applying **greater-than / less-than** comparison operators
+- Creating and **instantiating prefabs**
+- **Overriding prefab** values
+- Detecting **key presses**
+- Using `Instantiate()` to spawn objects
+- Using `Destroy()` to remove objects from the scene
+
+### 🔜 Next Lesson Preview
+
+- Create and launch **endless food** to feed animals!
