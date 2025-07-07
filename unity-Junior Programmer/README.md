@@ -79,3 +79,49 @@
 ### 🔜 Next Lesson Preview
 
 - Create and launch **endless food** to feed animals!
+
+## 📆 2025-07-07: Junior Programmer - Basic Gameplay Complete
+
+### 🎮 New Functionality
+
+- Pressing **S** spawns a random animal at a random position
+- Camera **projection type** (Perspective / Orthographic) adjusted per project
+- Animals now **spawn on a timed interval** and walk down the screen
+- If an animal reaches the bottom of the screen, it triggers a **Game Over**
+- If a projectile collides with an animal, **both are destroyed**
+- Balls spawn randomly from the top of the screen
+- Dogs are launched by the player as projectiles
+- Balls are only destroyed upon **direct contact with dogs**
+- Objects are destroyed based on their position:
+  - Balls → off the bottom of the screen
+  - Dogs → off the left side of the screen
+- Bonus: **Spawn interval randomized** between 3 to 5 seconds
+
+### 🧠 New Concepts & Skills Learned
+
+- `Instantiate()` method structure and usage
+- **Spawn Manager** script to handle randomized spawning
+- Use of **arrays**, `KeyCode`, and **random number generation**
+- Difference between **local** and **global** variables
+- **Perspective vs Isometric** camera projection
+- **Custom methods** and `InvokeRepeating()` for timed logic
+- **Colliders and triggers** for object interaction
+- **Override Unity functions** like `OnTriggerEnter()`
+- Debugging using `Debug.Log()`
+- Exporting Unity **packages**
+- Creating and applying **custom materials**
+
+### 🐛 Notable Debugging
+
+- Issue: Projectiles (pizzas) disappeared when spawned from **Hierarchy-linked prefab**
+  - Solution: Replaced with prefab from **Project folder**, not from Hierarchy
+
+### 📌 Exercises
+
+- ✅ Quizzes completed
+- ❌ `Mod the Cube` exercise not yet completed (To Do)
+
+### ✅ Milestone
+
+- **Basic Gameplay section completed**
+
