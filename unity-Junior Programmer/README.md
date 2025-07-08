@@ -125,3 +125,42 @@
 
 - **Basic Gameplay section completed**
 
+## 📆 2025-06-XX: Junior Programmer - Part 3: Sound and Effects (Nearly Complete)
+
+### 🎮 New Functionality
+
+- Player **jumps** when Spacebar is pressed
+- **No double-jumping** allowed (uses boolean flags)
+- Obstacles and background **move to the left**
+- Obstacles **spawn at regular intervals**
+- Background **repeats seamlessly**
+- Spawning and background movement **stop upon player collision**
+- Obstacles **destroyed off-screen**
+- Player animations:
+  - **Run** animation on start
+  - **Jump** animation when jumping
+  - **Fall** animation when crashing
+
+### 🧠 Key Concepts and Skills
+
+- `GetComponent<>` usage
+- `ForceMode.Impulse` to apply jump force
+- Gravity and `Rigidbody` component handling
+- Rigidbody constraints and variables
+- `OnCollisionEnter()` for collision detection
+- `bool` (Boolean) usage and logic operators:
+  - `&&` (AND)
+  - `*=` (Multiply/Assign)
+  - `==` (Equality)
+  - `!` (NOT)
+- **Script communication** using public variables and references
+- **Tag comparison** using `CompareTag()`
+- **Background loop** logic using collider width
+- Unity **Animator Controller** setup:
+  - Animation states, layers, and transitions
+  - `SetTrigger()`, `SetBool()`, `SetInt()` to control animations via script
+
+### ✅ Progress
+
+- ✔️ All major features of Part 3 completed
+- ❗ Final touches (e.g., sound integration) remaining
