@@ -125,7 +125,7 @@
 
 - **Basic Gameplay section completed**
 
-## 📆 2025-06-XX: Junior Programmer - Part 3: Sound and Effects (Nearly Complete)
+## 📆 2025-07-09: Junior Programmer - Part 3: Sound and Effects (Nearly Complete)
 
 ### 🎮 New Functionality
 
@@ -164,3 +164,34 @@
 
 - ✔️ All major features of Part 3 completed
 - ❗ Final touches (e.g., sound integration) remaining
+
+
+## 📆 2025-06-XX: Junior Programmer - Part 3: Sound and Effects (Completed)
+
+### 🎮 New Functionality
+
+- 🎵 **Background music** plays during the game
+- ✨ **Particle effects** at the player’s feet while running
+- 💥 **Sound effects and explosion** when the player hits an obstacle
+
+### 🧠 Key Concepts and Skills
+
+- Unity **Particle Systems** usage
+- Positioning **child objects** for effects (e.g., particle system under player)
+- Working with **Audio Clips** and **Audio Source** components
+- Using code to **play/stop sound effects**
+
+### ✅ Progress Summary
+
+- 🧪 Completed `Challenge 3` — fixed bugs based on prior learning
+- 🎧 Finished sound & particle effects implementation
+- 🧠 `Quiz 3` completed successfully
+- 🧩 `Creative Code Lab 3` **not attempted yet**
+
+### 🌟 Overall Recap
+
+- Built a polished and feature-rich game:
+  - Endless scrolling background
+  - Smooth character animations
+  - Interactive jumping & collision logic
+  - Full sound and visual feedback through music, VFX, and SFX
