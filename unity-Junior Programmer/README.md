@@ -166,7 +166,7 @@
 - ❗ Final touches (e.g., sound integration) remaining
 
 
-## 📆 2025-06-XX: Junior Programmer - Part 3: Sound and Effects (Completed)
+## 📆 2025-07-09: Junior Programmer - Part 3: Sound and Effects (Completed)
 
 ### 🎮 New Functionality
 
@@ -195,3 +195,43 @@
   - Smooth character animations
   - Interactive jumping & collision logic
   - Full sound and visual feedback through music, VFX, and SFX
+
+## 📆 2025-07-10: Junior Programmer - Part 4: Game Mechanics (Completed)
+
+### 🎮 New Functionality
+
+#### 🌀 Camera & Player Movement
+- Camera rotates around the island using horizontal input
+- Player rolls forward/backward based on camera orientation and vertical input
+
+#### 👾 Enemy Interaction
+- Enemies spawn at random positions and follow the player
+- Physics-based bouncing between spheres
+
+#### ⚡ Powerup System
+- Visual indicator appears when player collects a powerup
+- Powered-up player can knock enemies away
+- Powerup effect wears off after a few seconds
+
+#### 🔁 Enemy Waves
+- Enemies spawn in waves
+- Each wave increases in enemy count
+- A new powerup spawns with each wave
+
+### 🧠 Key Concepts and Skills
+
+- Texture wrapping and camera hierarchy
+- Global vs local coordinates, direction calculations
+- Physics Materials, vector normalization
+- Return values in methods
+- Coroutines using `IEnumerator` and `WaitForSeconds()`
+- Object activation with `SetActive(true/false)`
+- For-loops, `++` operator, parameterized methods
+- `FindObjectsOfType()` for wave management
+
+### ✅ Progress Summary
+
+- ✅ Completed `Challenge: Soccer Scripting`
+- ✅ Finished `Quiz 4`
+- ❌ `Creative Lab 4` not completed yet
+- ⚠️ **Note:** Forgot to save `Prototype 4` project. Need to **rebuild from scratch**. Remember to **frequently save your Unity projects** to avoid data loss!
