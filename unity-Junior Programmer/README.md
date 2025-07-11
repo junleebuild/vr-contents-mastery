@@ -235,3 +235,98 @@
 - ✅ Finished `Quiz 4`
 - ❌ `Creative Lab 4` not completed yet
 - ⚠️ **Note:** Forgot to save `Prototype 4` project. Need to **rebuild from scratch**. Remember to **frequently save your Unity projects** to avoid data loss!
+
+## Part 5: User Interface (In Progress)
+
+### Date: 2025-07-11
+
+---
+
+### 🎮 New Functionality
+
+- Random objects are tossed into the air on intervals.
+- Objects are given random speed, position, and torque.
+- If you click on an object, it is destroyed.
+
+#### 🧠 New Concepts and Skills
+
+- 2D View  
+- `AddTorque`  
+- Game Manager  
+- Lists  
+- While Loops  
+- Mouse Events  
+
+---
+
+- There is a UI element for score on the screen.
+- The player’s score is tracked and displayed by the score text when hitting a target.
+- There are particle explosions when the player gets an object.
+
+#### 🧠 New Concepts and Skills
+
+- TextMeshPro  
+- Canvas  
+- Anchor Points  
+- Import Libraries  
+- Custom methods with parameters  
+- Calling methods from other scripts  
+
+---
+
+- A functional Game Over screen with a Restart button.
+- When the Restart button is clicked, the game resets.
+
+#### 🧠 New Concepts and Skills
+
+- Game States  
+- Buttons  
+- On Click events  
+- Scene Management Library  
+- UI Library  
+- Booleans to control game states  
+
+---
+
+- Title screen that lets the user start the game.
+- Difficulty selection that affects spawn rate.
+
+#### 🧠 New Concepts and Skills
+
+- `AddListener()`  
+- Passing parameters between scripts  
+- Divide/Assign (`/=`) operator  
+- Grouping child objects  
+
+---
+
+### ⚠️ Trigger vs Collision Summary (Target Object Collision Issue)
+
+**📌 Problem**  
+The `OnTriggerEnter()` function was being called when **target objects collided with each other**, causing an unintended Game Over.  
+However, the intended behavior was to **trigger Game Over only when a target falls to the ground**.
+
+**✅ Root Cause**
+- `isTrigger` was enabled on the target objects → simply overlapping triggered `OnTriggerEnter()`
+- If `gameObject.CompareTag("Bad")` check failed, the `GameOver()` function was called
+
+**🛠 Solution**
+- **Target Objects**: Keep `Rigidbody` attached, but disable `isTrigger` (unchecked) → collisions between targets no longer trigger events
+- **Ground Detector (e.g., Sensor)**: Enable `isTrigger` (checked)
+- **Updated Script Example**:
+
+```csharp
+private void OnTriggerEnter(Collider other)
+{
+    Destroy(gameObject);
+
+    // Trigger Game Over only when hitting the ground (Sensor)
+    if (!gameObject.CompareTag("Bad"))
+    {
+        gameManager.GameOver();
+    }
+}
+
+**✅ Result**
+- Target objects colliding with each other no longer trigger Game Over
+- Game Over is triggered only when a target touches the ground (Sensor) via OnTriggerEnter()
