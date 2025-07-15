@@ -181,9 +181,9 @@ GameObject:
   - component: {fileID: 3302203385447740379}
   - component: {fileID: 3985961890271351530}
   - component: {fileID: 5691948748880561557}
-  - component: {fileID: 6900153373689008396}
   - component: {fileID: -3046323778846118035}
-  - component: {fileID: 9091998987412712209}
+  - component: {fileID: 7664492229157773700}
+  - component: {fileID: 2594035207602136092}
   m_Layer: 0
   m_Name: Animal_Doe_01
   m_TagString: Untagged
@@ -250,18 +250,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
---- !u!114 &6900153373689008396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2225781716732015443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c67d84613e5d2f4bbc85334b8b026a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &-3046323778846118035
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -283,7 +271,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.122324005, y: 0.42643887, z: 0.39630365}
   m_Center: {x: 0.0003638506, y: 0.15678196, z: 0.046848156}
---- !u!114 &9091998987412712209
+--- !u!114 &7664492229157773700
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -292,7 +280,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 2225781716732015443}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98b7a9700ce2d274085a593bd58b0ed5, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2594035207602136092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2225781716732015443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3116397218763105796

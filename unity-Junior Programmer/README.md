@@ -330,3 +330,40 @@ private void OnTriggerEnter(Collider other)
 **✅ Result**
 - Target objects colliding with each other no longer trigger Game Over
 - Game Over is triggered only when a target touches the ground (Sensor) via OnTriggerEnter()
+
+
+## 📆 2025-07-15 Development Log
+
+### 🗂️ Part 6: Publishing Your Project (6.1)
+
+Today I resumed the Unity Junior Programmer course after a break due to Unity Learn system maintenance.
+
+#### 🎯 New Concepts and Skills Learned
+
+- **Optimization Basics**  
+  Understanding how to optimize game performance for better efficiency.
+  
+- **Serialized Fields**  
+  Using `[SerializeField]` to expose private fields in the Inspector while keeping encapsulation.
+
+- **Keywords:**
+  - `readonly`  
+  - `const`  
+  - `static`  
+  - `protected`  
+  Learning when and how to use these modifiers for cleaner and safer code.
+
+- **Event Functions Overview**
+  - `FixedUpdate()` vs. `Update()` vs. `LateUpdate()`  
+    → Learn the execution order and best use cases.
+  - `Awake()` vs. `Start()`  
+    → Understand when each is called during the object lifecycle.
+
+- **Object Pooling**  
+  Reusing inactive objects instead of creating and destroying them repeatedly to improve performance.
+
+---
+
+### 📝 Note:
+- This marks the start of **Part 6: Publishing Your Project (6.1)**  
+- Will continue to the next sections tomorrow.

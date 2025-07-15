@@ -530,10 +530,14 @@ PrefabInstance:
       propertyPath: projectilePrefab
       value: 
       objectReference: {fileID: 7641785571398894530, guid: 90c901dfbfa9e8e42988788eaffbeb01, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3559561362373411686, guid: f3f69bcf5a1514c458ed5c9b96f28e34, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: f3f69bcf5a1514c458ed5c9b96f28e34, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1057007281}
   m_SourcePrefab: {fileID: 100100000, guid: f3f69bcf5a1514c458ed5c9b96f28e34, type: 3}
 --- !u!1 &992285705
 GameObject:
@@ -569,6 +573,24 @@ Transform:
   - {fileID: 425805627}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1057007280 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: f3f69bcf5a1514c458ed5c9b96f28e34, type: 3}
+  m_PrefabInstance: {fileID: 806878875}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1057007281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057007280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e917c52987daa41af6a0305d9813c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 7641785571398894530, guid: 90c901dfbfa9e8e42988788eaffbeb01, type: 3}
 --- !u!1 &1503556371
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,6 +601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1503556373}
   - component: {fileID: 1503556372}
+  - component: {fileID: 1503556374}
   m_Layer: 0
   m_Name: SpawnManager
   m_TagString: Untagged
@@ -617,6 +640,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1503556374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503556371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c0e1f24e2ce4a5b9bf1f3a7499cd45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledObjects: []
+  objectToPool: {fileID: 274089723706209896, guid: f011ffb30870fc8448123b1ebd5c4353, type: 3}
+  amountToPool: 20
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
