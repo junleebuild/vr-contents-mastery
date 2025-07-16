@@ -334,7 +334,7 @@ private void OnTriggerEnter(Collider other)
 
 ## 📆 2025-07-15 Development Log
 
-### 🗂️ Part 6: Publishing Your Project (6.1)
+### 🗂️ Part 6: Publishing Your Project (6.1 using prototype 1)
 
 Today I resumed the Unity Junior Programmer course after a break due to Unity Learn system maintenance.
 
@@ -367,3 +367,30 @@ Today I resumed the Unity Junior Programmer course after a break due to Unity Le
 ### 📝 Note:
 - This marks the start of **Part 6: Publishing Your Project (6.1)**  
 - Will continue to the next sections tomorrow.
+
+## 📆 2025-07-16 Development Log
+
+### 🗂️ Part 6: Publishing Your Project (Continued)
+
+#### 🎯 New Concepts and Skills Learned
+
+- **Community Support & Documentation**
+  - How to search effectively on **Unity Answers**, **Unity Forum**, and **Unity Scripting API**
+  - Troubleshooting and resolving bugs by using online resources
+
+- **Physics & Math Functions**
+  - `AddRelativeForce()`
+  - Adjusting **Center of Mass** for physics stability
+  - `Mathf.RoundToInt()`
+
+- **Operators & Loops**
+  - Using **Modulus (%)** operator for loop control and logic
+  - Looping through **Lists**
+
+- **Custom Methods**
+  - Creating custom methods that **return `bool` values** for conditional logic
+
+---
+
+### ⚠️ Note:
+- Today's session is **partially incomplete**, and certain sections may need to be revisited for review and refinement later.
