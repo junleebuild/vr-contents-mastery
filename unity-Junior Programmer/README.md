@@ -394,3 +394,75 @@ Today I resumed the Unity Junior Programmer course after a break due to Unity Le
 
 ### ⚠️ Note:
 - Today's session is **partially incomplete**, and certain sections may need to be revisited for review and refinement later.
+
+
+## 📆 2025-07-17 Development Log
+
+### 🗂️ Part 6: Publishing Your Project (Final Sections)
+
+#### 🎯 New Concepts and Skills Learned
+
+##### ✅ Build & Deployment
+- **Installing Export Modules** for different platforms
+- **Building for Mac/PC**
+- **Building for WebGL/HTML**
+
+##### ✅ Introduction to DOTS & ECS
+- **DOTS (Data-Oriented Technology Stack)** and **ECS (Entity Component System)** overview
+- Difference between **Data-Oriented Design** vs **Object-Oriented / Component-Based Design**
+- How to recognize ECS code patterns:
+  - Different `using` statements (e.g., `using Unity.Entities;`)
+  - Inheriting from non-`MonoBehaviour` classes (e.g., `JobComponentSystem`)
+  - Organizing code around **data (e.g., MoveSpeed)** rather than components or objects
+
+---
+
+### 🎓 Unity Certifications Overview
+
+| Level         | Track              | Description |
+|---------------|--------------------|-------------|
+| **User**      | Programmer          | Foundational Unity & C# programming skills |
+|               | Artist              | 2D & 3D digital artistry skills |
+|               | VR Development      | Specialization in VR experiences |
+| **Associate** | Game Developer      | Job-ready Unity skills for real-time 3D |
+|               | Programmer          | Core programming, UI, debugging, asset management |
+|               | Artist              | First professional role as Unity 2D/3D artist |
+| **Professional** | Programmer       | Core programming across full project lifecycle |
+|               | Artist              | Mastery of technical artistic execution |
+| **Expert**    | Programmer          | Advanced Unity programming across industries |
+
+**🎯 Goal:**  
+Plan to obtain **Certified User: VR Development**
+
+---
+
+### 🗂️ Portfolio Planning
+
+Started planning and organizing a **portfolio** for personal projects.  
+Considered the following aspects:
+
+#### Content Planning:
+- What is the purpose of the portfolio?
+- Who is the intended audience?
+- Are there any gaps in content?
+- Should the portfolio have a narrative or order of presentation?
+- How will the portfolio evolve over time?
+
+#### Design & Usability:
+- Consistency across pages
+- Clear navigation and layout
+- Accessibility (alt-text, readable fonts, color contrast, etc.)
+- Appropriate language for audience
+- Consideration of privacy and information sharing
+
+---
+
+### 🛠️ Sections Deferred (To-Do):
+
+- **Debug App Part** – Postponed  
+- **Counting Prototype & Quiz (Create with Code 2)** – To be done later
+
+---
+
+### ⚠️ Note:
+Today's session completed the **Publishing Your Project** part of the Unity Junior Programmer curriculum (except for optional sections to revisit later).
