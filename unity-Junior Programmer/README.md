@@ -466,3 +466,51 @@ Considered the following aspects:
 
 ### ⚠️ Note:
 Today's session completed the **Publishing Your Project** part of the Unity Junior Programmer curriculum (except for optional sections to revisit later).
+
+
+## 📆 2025-07-17 Development Log
+
+### 🗂️ Chapter 7: Manage Scene Flow and Data (Overview)
+
+#### 🔍 Summary
+- This chapter provides **supplementary knowledge** on scene management, data flow, and basic project architecture.
+- Purpose: Understand how to structure projects for better scalability and user experience in real-time 3D applications.
+
+#### 📖 Sections Covered (Quick Review)
+
+1. **Introduction to Real-Time 3D Experience Design**
+   - Importance of interactivity, real-time feedback, and scene transitions in 3D projects.
+   
+2. **Set Up Version Control**
+   - Versioning best practices with Git & GitHub
+   - Scene separation for team collaboration
+   
+3. **Explore the Sample Project**
+   - Overview of pre-built assets and project hierarchy
+   
+4. **Principles of Object-Oriented Programming (OOP)**
+   - Encapsulation, Inheritance, Polymorphism (conceptual overview, not coding focus)
+   
+5. **Create a Scene Flow**
+   - Connected UI to control scene transitions
+   - Set up navigation between Main Menu and Gameplay scenes
+   - **Note**: Color selection buttons are not yet functional – this will be implemented in the next tutorial (Data Persistence)
+
+---
+
+### ⚙️ Customization Note
+
+> 💡 **Make it your own!**  
+> If the provided UI feels too generic, it’s encouraged to:
+- **Customize the UI appearance**  
+- Or **create your own menu from scratch**  
+
+**⚠️ Important:**  
+Even if you customize, you **must include the same core buttons** used in the tutorial to ensure all required interactions are accessible.
+
+---
+
+### 🚧 Next Steps:
+- Implement **Data Persistence** (color selection functionality)  
+- Proceed to the **Save & Load Data** tutorial
+
