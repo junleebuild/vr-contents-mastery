@@ -72,3 +72,63 @@ Building on yesterday’s setup, I explored different locomotion techniques in V
 ### 🔗 Next Steps
 - Test transitions between different locomotion methods.
 - Explore smooth locomotion comfort settings.
+
+
+## 📆 2025-08-01
+
+### ✅ Today’s Progress: Grabbable Objects in VR
+
+In Part 1.3 of the VR Development Pathway, I learned how to set up interactive grabbable objects using XR Interaction Toolkit in Unity.
+
+---
+
+### 👐 Hand Models Setup
+
+- **Added Hand Models**:  
+  - From the `VR` folder, assigned the `Hand` prefab to the left and right XR Controller components under `XR Rig`.
+  - This displays hand models in VR.
+
+---
+
+### ⚠️ Teleportation Bug (Camera Dropping to Floor)
+
+- **Issue**:  
+  - During teleportation, the camera would sink into the floor.
+- **Fix**:  
+  - Changed `XR Rig`'s **Tracking Origin Mode** from `Floor` to `Device`.
+
+---
+
+### 🎾 Added Interactable Tennis Equipment
+
+- **Tennis Ball & Racket**:
+  - Imported from `Sports` folder and added to the scene.
+  - Assigned `XR Grab Interactable` component to both.
+
+- **XR Interaction Manager**:
+  - Added to the scene and referenced by the interactables.
+
+---
+
+### 🛠 Object-Specific Settings
+
+- **Racket**:
+  - Enabled `Attach Transform` for better hand alignment.
+  - Disabled `Hide Controller on Select` in **Selection Configuration** to hide the hand model when grabbing.
+
+- **Tennis Ball**:
+  - Added `Sphere Collider` for accurate collision.
+  - Added a `Physics Material` to allow for bouncing.
+  - Enabled `Collision Detection` for realistic physics behavior.
+
+- **Hand Visibility**:
+  - Disabled `Anchor Control` to ensure the hands don't shift unexpectedly when grabbing.
+  - Made sure controller is hidden when grabbing for realism.
+
+---
+
+### ✅ Summary
+
+- Hands appear and track properly in VR.
+- Grabbable objects (racket & ball) behave realistically with proper physics and hand alignment.
+- Fixed camera sinking issue.
