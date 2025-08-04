@@ -132,3 +132,43 @@ In Part 1.3 of the VR Development Pathway, I learned how to set up interactive g
 - Hands appear and track properly in VR.
 - Grabbable objects (racket & ball) behave realistically with proper physics and hand alignment.
 - Fixed camera sinking issue.
+
+## 📆 2025-08-04
+
+### ✅ Today’s Progress: Socket Interactions in VR
+
+In Part 1.4 of the VR Development Pathway, I learned how to set up sockets for placing grabbable objects (hats) onto designated holders (hooks).
+
+---
+
+### 🧢 Added Grabbable Hats
+
+- **Hats**:
+  - Added two hat objects to the VR room scene.
+  - Assigned `XR Grab Interactable` component to each hat to make them grabbable.
+
+---
+
+### 🪝 Created Socket Hook Setup
+
+- **Hook Setup**:
+  - Under the `Hook` object, created a child named `Socket`.
+  - Added a **Collider** (e.g., Box or Sphere Collider) to the `Socket`.
+  - Added `XR Socket Interactor` component to the `Socket`.
+
+---
+
+### 📍 Attach Point Alignment
+
+- **Attach Transform**:
+  - Created a new empty GameObject called `Attach` under the `Socket`.
+  - Assigned this `Attach` GameObject to the **Attach Transform** field of the `XR Socket Interactor`.
+  - This ensured that the hats snap into the correct position and rotation when placed into the socket.
+
+---
+
+### ✅ Summary
+
+- Hats can be picked up and snapped onto the hooks.
+- Sockets properly receive objects and align them using custom attach points.
+- Scene now includes working socket interactions using `XR Socket Interactor`.
