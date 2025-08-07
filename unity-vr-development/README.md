@@ -172,3 +172,52 @@ In Part 1.4 of the VR Development Pathway, I learned how to set up sockets for p
 - Hats can be picked up and snapped onto the hooks.
 - Sockets properly receive objects and align them using custom attach points.
 - Scene now includes working socket interactions using `XR Socket Interactor`.
+
+## 📆 2025-08-07
+
+### 🧠 Today’s Topic: The VR Software Landscape
+
+In this session, I explored the current state of the VR software ecosystem and what contributes to a great VR experience.
+
+---
+
+### 🔍 What Makes a Great VR Experience?
+
+- A **compelling story** or message that the user can engage with is essential.
+- Personal expression and narrative are important for user immersion.
+
+---
+
+### 🧭 Categories of VR Content
+
+- **Games**
+- **Education**
+- **Experiential content**
+- **Travel & exploration**
+- These diverse genres showcase the wide potential of VR platforms.
+
+---
+
+### 🛍 Where to Find VR Software
+
+- Users with a Head-Mounted Display (HMD) can:
+  - Try **demos**
+  - Purchase full applications
+  - Platforms include **Oculus Store** and **SteamVR**
+
+---
+
+### ⚠️ Current Limitations of VR
+
+- **Comfort issues** (motion sickness, headset ergonomics)
+- **Space requirements** for room-scale experiences
+- **Isolation** from the physical world
+- **Cost** of high-end VR hardware and software
+
+---
+
+### ✅ Summary
+
+- Learned that great VR experiences come from strong storytelling.
+- Explored various VR content categories and platforms.
+- Gained awareness of existing limitations in VR adoption.
