@@ -221,3 +221,31 @@ In this session, I explored the current state of the VR software ecosystem and w
 - Learned that great VR experiences come from strong storytelling.
 - Explored various VR content categories and platforms.
 - Gained awareness of existing limitations in VR adoption.
+
+
+## 📆 2025-08-08
+
+### 🧠 Today’s Topic: Lab 1 — VR Personal Project Basics
+
+---
+
+### 🆕 New Functionality
+- **VR project set up**  
+- **Scene blocked out** using primitive shapes  
+- **Locomotion** implemented for moving around the scene  
+- **Grabbable objects** for interactive gameplay  
+- **Socket interactors** for placing objects in specific locations  
+
+---
+
+### 🛠 New Concepts & Skills
+- Applying **VR basics**:
+  - Locomotion setup
+  - Object grabbing
+  - Socket-based interactions
+- Integrating these fundamentals into a **personal VR app** environment
+
+---
+
+### ⏭ Next Lab
+- Implement **core functionality** and **custom interactions** to expand the VR project.
