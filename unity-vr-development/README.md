@@ -249,3 +249,21 @@ In this session, I explored the current state of the VR software ecosystem and w
 
 ### ⏭ Next Lab
 - Implement **core functionality** and **custom interactions** to expand the VR project.
+
+
+## 📆 2025-08-13
+
+### 🧠 Today’s Topic: Mission 1 Quiz — VR Basics
+
+---
+
+### 📊 Quiz Results
+- **Score:** 8 / 10 (Pass ✅)
+- **Incorrect Questions:** #3, #9  
+  → Will review these later for better understanding.
+
+---
+
+### 📝 Notes
+- Successfully demonstrated knowledge of VR fundamentals.
+- Next step: revisit incorrect questions and clarify concepts.
