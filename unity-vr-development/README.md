@@ -267,3 +267,39 @@ In this session, I explored the current state of the VR software ecosystem and w
 ### 📝 Notes
 - Successfully demonstrated knowledge of VR fundamentals.
 - Next step: revisit incorrect questions and clarify concepts.
+
+## 📆 2025-09-01
+
+### 🎉 Restarting the VR Development Pathway
+Today marks the fresh continuation of my VR Development Pathway journey.  
+Starting with **Haptic Feedback Setup** for VR controllers.
+
+---
+
+### 🕹️ Steps Completed
+
+1. **Edit Both Controllers Simultaneously**
+   - In the Hierarchy: `XR Rig > Camera Offset`
+   - Ctrl/Cmd + select **RightHand Controller** and **LeftHand Controller**
+
+2. **Locate Haptic Events**
+   - In the Inspector: under **XR Ray Interactor** component
+   - Expanded the **Haptic Events** foldout
+
+3. **Subtle Haptic Feedback on Hover**
+   - Enabled **On Hover Entered**
+   - Set **Intensity**: 0.1–0.5  
+   - Set **Duration**: ~0.1 seconds
+
+4. **Stronger Haptic Feedback on Grab**
+   - Enabled **On Select Entered**
+   - Set **Intensity**: higher value  
+   - Set **Duration**: ~0.25 seconds
+
+---
+
+### ✅ Summary
+- Restarted VR development progress on **Sept 1, 2025**  
+- Implemented **basic haptic feedback system** for VR controllers:
+  - Subtle vibrations when hovering over objects
+  - Stronger vibrations when grabbing objects
