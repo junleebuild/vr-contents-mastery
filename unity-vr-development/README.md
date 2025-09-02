@@ -303,3 +303,28 @@ Starting with **Haptic Feedback Setup** for VR controllers.
 - Implemented **basic haptic feedback system** for VR controllers:
   - Subtle vibrations when hovering over objects
   - Stronger vibrations when grabbing objects
+
+  ## 📆 2025-09-02
+
+### 🎵 Adding Audio Feedback to Controllers
+
+---
+
+### 🕹️ Steps Completed
+
+1. **Select the Sound Effect**
+   - Path: `Course Library > Audio > FX`
+   - Chose a subtle UI sound for **hover** or **select** events
+   - Previewed the sound by dragging up the **Preview panel** in the Inspector
+
+2. **Apply the Sound to Both Controllers**
+   - In Hierarchy: selected both **RightHand Controller** and **LeftHand Controller**
+   - In Inspector: under **XR Ray Interactor** → expanded **Audio Events**
+   - Enabled either **On Select Entered** or **On Hover Entered**
+   - Assigned the chosen sound effect to the event
+
+---
+
+### ✅ Summary
+- Added **UI audio feedback** for hover/select interactions
+- Both controllers now provide sound cues alongside haptics
