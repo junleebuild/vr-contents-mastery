@@ -328,3 +328,34 @@ Starting with **Haptic Feedback Setup** for VR controllers.
 ### ✅ Summary
 - Added **UI audio feedback** for hover/select interactions
 - Both controllers now provide sound cues alongside haptics
+
+## 📆 2025-09-03
+
+### 🔥 Adding a 3D Fire Sound Effect
+
+---
+
+### 🕹️ Steps Completed
+
+1. **Assign Fire Sound Effect**
+   - Added an **Audio Source** component to the fire particle object
+   - In **AudioClip**, assigned `SFX_Loop_Fire` from `Course Library > Audio > FX`
+
+2. **Enable Automatic Play & Loop**
+   - Checked **Play on Awake**
+   - Checked **Loop** so the sound repeats continuously
+
+3. **Configure as 3D Sound**
+   - In **Spatial Blend**, dragged the slider fully to the right (value = **1**) for 3D spatialization
+
+4. **Adjust Volume & Roll-Off**
+   - Modified **Volume** property to balance the overall loudness
+   - Expanded **3D Sound Settings**
+   - Tuned **Min Distance** and **Max Distance** for natural sound fading with distance
+
+---
+
+### ✅ Summary
+- Implemented a **looping 3D fire sound effect**
+- Configured spatial audio so the fireplace sounds realistic in VR
+- Adjusted volume roll-off for immersive audio experience
